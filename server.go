@@ -211,6 +211,10 @@ type Server struct {
 	udpPool sync.Pool
 }
 
+func (srv *Server) MyStarted() bool {
+	return srv.isStarted()
+}
+
 func (srv *Server) isStarted() bool {
 	srv.lock.RLock()
 	started := srv.started
