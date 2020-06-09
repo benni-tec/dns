@@ -211,6 +211,10 @@ type Server struct {
 	udpPool sync.Pool
 }
 
+func (srv *Server) MyShutdown() chan struct{} {
+	return shutdown
+}
+
 func (srv *Server) MyStarted() bool {
 	return srv.isStarted()
 }
