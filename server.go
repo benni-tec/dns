@@ -212,7 +212,7 @@ type Server struct {
 }
 
 func (srv *Server) MyShutdown() chan struct{} {
-	return shutdown
+	return srv.shutdown
 }
 
 func (srv *Server) MyStarted() bool {
