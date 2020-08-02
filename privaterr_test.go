@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/miekg/dns"
+	"github.com/benni-tec/dns"
 )
 
 const TypeISBN uint16 = 0xFF00

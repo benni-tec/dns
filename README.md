@@ -100,13 +100,13 @@ DNS Authors 2012-
 This library uses Go modules and uses semantic versioning. Building is done with the `go` tool, so
 the following should work:
 
-    go get github.com/miekg/dns
-    go build github.com/miekg/dns
+    go get github.com/benni-tec/dns
+    go build github.com/benni-tec/dns
 
 ## Examples
 
 A short "how to use the API" is at the beginning of doc.go (this also will show when you call `godoc
-github.com/miekg/dns`).
+github.com/benni-tec/dns`).
 
 Example programs can be found in the `github.com/miekg/exdns` repository.
 
